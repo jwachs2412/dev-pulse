@@ -6,8 +6,8 @@ interface MoodChartProps {
 
 const MOOD_COLORS: Record<MoodEntry['mood'], string> = {
   happy: '#4ade80',
-  energized: 'facc15',
-  neutral: '94a3b8',
+  energized: '#facc15',
+  neutral: '#94a3b8',
   tired: '#818cf8',
   frustrated: '#f87171',
 };

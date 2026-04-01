@@ -14,6 +14,10 @@ body {
   line-height: 1.6;
 }
 
+h2 {
+  color: #fff;
+}
+
 /* ─── APP LAYOUT ─────────────────────────────────────────── */
 .app {
   max-inline-size: 43.75rem;
@@ -49,6 +53,7 @@ body {
 
 .entry-form h2 {
   font-size: 1.25rem;
+  font-weight: 500;
   margin-block-end: 1rem;
 }
 
