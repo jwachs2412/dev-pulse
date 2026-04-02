@@ -13,7 +13,7 @@ const API_URL = import.meta.env.VITE_API_URL || '/api';
  * 4. We parse the JSON and return it as typed data
  */
 export async function getEntries(): Promise<MoodEntry[]> {
-  const response = await fetch(`${API_URL}/entries`);
+  const response = await fetch(`${API_URL}/api/entries`);
 
   if (!response.ok) {
     throw new Error(`Failed to fetch entries: ${response.statusText}`);
@@ -35,7 +35,7 @@ export async function getEntries(): Promise<MoodEntry[]> {
 export async function createEntry(
   data: CreateEntryRequest
 ): Promise<MoodEntry> {
-  const response = await fetch(`${API_URL}/entries`, {
+  const response = await fetch(`${API_URL}/api/entries`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
