@@ -45,8 +45,8 @@ cd client
 npm run dev
 ```
 
-- Frontend: http://localhost:5173
-- Backend: http://localhost:3001d
+- Frontend: https://dev-pulse-gamma.vercel.app/
+- Backend: https://dev-pulse-api-mfpg.onrender.com/
 
 ## API Endpoints
 
