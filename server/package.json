@@ -12,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/server": "^1.0.11",
     "cors": "^2.8.6",
     "express": "^5.2.1"
   },
